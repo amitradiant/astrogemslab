@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#1c1c1c">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Astro Lab & Gems - Listing</title>
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <link rel="canonical" href="">
+    <!-- GOOGLE FONTS FOR SITE TEXT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap">
+    <!-- FONTAWESOME v6.2.1 -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- BOOTSTRAP v5.3.0 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- SWIPER v8.3.1 -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- FANCYBOX -->
+    <!-- <link rel="stylesheet" href="css/jquery.fancybox.min.css"> -->
+    <!-- MAIN STYLES -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-topbar py-1">
+            <div class="container container-custom">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <p class="mb-0">Certified Gemstones Seller in India</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-contact-links">
+                            <a class="btn btn-success rounded-0 btn-sm" href="#"><i class="fab fa-whatsapp me-1"></i> Chat</a>
+                            <a class="btn btn-danger rounded-0 btn-sm" href="#"><i class="fa-solid fa-headset me-1"></i> Free Consultation</a>
+                            <a class="btn btn-info rounded-0 btn-sm" href="#"><i class="fa-solid fa-user-check me-1"></i> Talk to Expert</a>
+                        </div>
+                        <!-- /.header-contact-links -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.header-top -->
+        <div class="header-brand">
+            <div class="container container-custom">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-3">
+                        <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="search-textbox position-relative">
+                            <input type="text" class="form-control" placeholder="Type to search...">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shop-account-option">
+                            <a class="shop-account-option-item wishlist-option" href="#"><img src="images/heart-icon.png" alt=""></a>
+                            <a class="shop-account-option-item account-option" href="#"><img src="images/user-icon.png" alt=""></a>
+                            <a class="shop-account-option-item cart-option" href="#"><img src="images/shopping-cart.png" alt=""><span class="count">3</span></a>
+                            <select class="form-select form-select-sm w-auto" aria-label="currency">
+                                <option value="INR" selected="">INR &nbsp;&nbsp;- Indian Rupee </option>
+                                <option value="DZD">DZD &nbsp;- Algerian Dinar </option>
+                                <option value="AOA">AOA &nbsp;- Angolan Kwanza </option>
+                                <option value="ARS">ARS &nbsp;- Argentine Peso </option>
+                                <option value="AUD">AUD &nbsp;- Australian Dollar </option>
+                                <option value="BHD">BHD &nbsp;- Bahraini Dinar </option>
+                                <option value="BDT">BDT &nbsp;- Bangladeshi Taka </option>
+                                <option value="BYR">BYR &nbsp;- Belarusian Ruble </option>
+                                <option value="BRL">BRL &nbsp;- Brazilian Real </option>
+                                <option value="GBP">GBP &nbsp;- British Pound Sterling </option>
+                                <option value="XOF">XOF &nbsp;- CFA Franc BCEAO </option>
+                                <option value="CAD">CAD &nbsp;- Canadian Dollar </option>
+                                <option value="CLP">CLP &nbsp;- Chilean Peso </option>
+                                <option value="COP">COP &nbsp;- Colombian Peso </option>
+                                <option value="CRC">CRC &nbsp;- Costa Rican Colón </option>
+                                <option value="CZK">CZK &nbsp;- Czech Republic Koruna </option>
+                                <option value="DKK">DKK &nbsp;- Danish Krone </option>
+                                <option value="DOP">DOP &nbsp;- Dominican Peso </option>
+                                <option value="EGP">EGP &nbsp;- Egyptian Pound </option>
+                                <option value="EUR">EUR &nbsp;- Euro </option>
+                                <option value="GEL">GEL &nbsp;- Georgian Lari </option>
+                                <option value="GHS">GHS &nbsp;- Ghanaian Cedi </option>
+                                <option value="GTQ">GTQ &nbsp;- Guatemalan Quetzal </option>
+                                <option value="HKD">HKD &nbsp;- Hong Kong Dollar </option>
+                                <option value="HUF">HUF &nbsp;- Hungarian Forint </option>
+                                <option value="INR">INR &nbsp;- Indian Rupee </option>
+                                <option value="IDR">IDR &nbsp;- Indonesian Rupiah </option>
+                                <option value="JPY">JPY &nbsp;- Japanese Yen </option>
+                                <option value="JOD">JOD &nbsp;- Jordanian Dinar </option>
+                                <option value="KZT">KZT &nbsp;- Kazakhstani Tenge </option>
+                                <option value="KES">KES &nbsp;- Kenyan Shilling </option>
+                                <option value="KWD">KWD &nbsp;- Kuwaiti Dinar </option>
+                                <option value="LBP">LBP &nbsp;- Lebanese Pound </option>
+                                <option value="MGA">MGA &nbsp;- Malagasy Ariary </option>
+                                <option value="MYR">MYR &nbsp;- Malaysian Ringgit </option>
+                                <option value="MUR">MUR &nbsp;- Mauritian Rupee </option>
+                                <option value="MXN">MXN &nbsp;- Mexican Peso </option>
+                                <option value="MAD">MAD &nbsp;- Moroccan Dirham </option>
+                                <option value="NPR">NPR &nbsp;- Nepalese Rupee </option>
+                                <option value="TWD">TWD &nbsp;- New Taiwan Dollar </option>
+                                <option value="NZD">NZD &nbsp;- New Zealand Dollar </option>
+                                <option value="NIC">NIC &nbsp;- Nicaraguan Córdoba (1988–1991) </option>
+                                <option value="NGN">NGN &nbsp;- Nigerian Naira </option>
+                                <option value="NOK">NOK &nbsp;- Norwegian Krone </option>
+                                <option value="OMR">OMR &nbsp;- Omani Rial </option>
+                                <option value="PAB">PAB &nbsp;- Panamanian Balboa </option>
+                                <option value="PYG">PYG &nbsp;- Paraguayan Guarani </option>
+                                <option value="PEN">PEN &nbsp;- Peruvian Nuevo Sol </option>
+                                <option value="PHP">PHP &nbsp;- Philippine Peso </option>
+                                <option value="PLN">PLN &nbsp;- Polish Zloty </option>
+                                <option value="RON">RON &nbsp;- Romanian Leu </option>
+                                <option value="RUB">RUB &nbsp;- Russian Ruble </option>
+                                <option value="SAR">SAR &nbsp;- Saudi Riyal </option>
+                                <option value="SGD">SGD &nbsp;- Singapore Dollar </option>
+                                <option value="ZAR">ZAR &nbsp;- South African Rand </option>
+                                <option value="KRW">KRW &nbsp;- South Korean Won </option>
+                                <option value="SEK">SEK &nbsp;- Swedish Krona </option>
+                                <option value="CHF">CHF &nbsp;- Swiss Franc </option>
+                                <option value="THB">THB &nbsp;- Thai Baht </option>
+                                <option value="TND">TND &nbsp;- Tunisian Dinar </option>
+                                <option value="TRY">TRY &nbsp;- Turkish Lira </option>
+                                <option value="USD">USD &nbsp;- US Dollar </option>
+                                <option value="UAH">UAH &nbsp;- Ukrainian Hryvnia </option>
+                                <option value="AED">AED &nbsp;- United Arab Emirates Dirham </option>
+                                <option value="UYU">UYU &nbsp;- Uruguayan Peso </option>
+                                <option value="UZS">UZS &nbsp;- Uzbekistan Som </option>
+                                <option value="VND">VND &nbsp;- Vietnamese Dong </option>
+                            </select>
+                        </div>
+                        <!-- /.shop-account-option -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.header-brand -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-custom">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Birthstone</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Exclusive Collections</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Natural Sapphires</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Special Collections</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Semi Precious Stones</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="listing.html">Offers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ############################################################## -->
+    <main class="main-content inner-content">
+        <section class="top-intro py-5 bg-light">
+            <div class="container container-custom position-relative">
+                <h1 class="display-6 text-white">Blue Sapphire(Neelam)</h1>
+                <p class="fs14 mb-0 text-white-90">Blue Sapphire (Neelam) is an extremely valuable, blue coloured gemstone of the Corundum mineral family. Known as the most influential and active acting gemstone in Vedic astrology, it is very effective in Business, Career, Health & Marriage and achievement in a person’s life. Natural blue sapphire (Neelam) generally comes from Sri-Lanka(Ceylon), Burma & Kashmir and is worn for planet Saturn (Shani). The stone is extremely helpful for individuals experiencing a tough period of ‘Shani Sadhe Saati’ or ‘Dhaiya’ in their lives.</p>
+            </div>
+        </section>
+        <!-- /.top-intro -->
+        <section class="site-breadcrumb bg-light py-2 border-bottom border-light-subtle">
+            <div class="container container-custom">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 bg-transparent">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="listing.html">Gemstones</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Blue Sapphire[Neelam]</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <!-- /.site-breadcrumb -->
+        <section class="products-section py-xl-4 py-lg-5 py-md-4 py-sm-4 py-4 bg-light2">
+            <div class="container container-custom">
+                <h4 class="mb-0">Blue Sapphire(Neelam)</h4>
+                <div class="row pt-4 pb-4 position-relative">
+                    <div class="col-lg-3 col-md-3 filter-sidebar">
+                        <div class="sidebar-container">
+                            <div class="sidebar-header">
+                                <h5 class=" d-flex justify-content-between mb-0">Filters <a class="btn btn-outline-dark btn-sm body-font fw500 fs11" href="javascript:void(0);">CLEAR ALL</a></h5>
+                            </div>
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Price Range <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange1">
+                                        <label class="form-check-label" for="pricerange1">1000-10000 <span>(11)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange2">
+                                        <label class="form-check-label" for="pricerange2">10000-20000 <span>(48)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange3">
+                                        <label class="form-check-label" for="pricerange3">20000-30000 <span>(23)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange4">
+                                        <label class="form-check-label" for="pricerange4">40000-50000 <span>(29)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange5">
+                                        <label class="form-check-label" for="pricerange5">60000-70000 <span>(18)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricerange6">
+                                        <label class="form-check-label" for="pricerange6">70000-1215000 <span>(23)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Price Per Carat <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat1">
+                                        <label class="form-check-label" for="pricepercarat1">1000-10000 <span>(40)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat2">
+                                        <label class="form-check-label" for="pricepercarat2">10000-20000 <span>(41)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat3">
+                                        <label class="form-check-label" for="pricepercarat3">20000-30000 <span>(42)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat4">
+                                        <label class="form-check-label" for="pricepercarat4">40000-50000 <span>(43)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat5">
+                                        <label class="form-check-label" for="pricepercarat5">60000-70000 <span>(44)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="pricepercarat6">
+                                        <label class="form-check-label" for="pricepercarat6">70000-90000 <span>(45)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Weight(Carat) <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="carat1">
+                                        <label class="form-check-label" for="carat1">1-4 Carat <span>(42)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="carat2">
+                                        <label class="form-check-label" for="carat2">4-8 Carat <span>(43)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="carat3">
+                                        <label class="form-check-label" for="carat3">8-12 Carat <span>(44)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="carat4">
+                                        <label class="form-check-label" for="carat4">12-18 Carat <span>(45)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Weight(Ratti) <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="ratti1">
+                                        <label class="form-check-label" for="ratti1">1-4 Ratti <span>(42)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="ratti2">
+                                        <label class="form-check-label" for="ratti2">4-8 Ratti <span>(43)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="ratti3">
+                                        <label class="form-check-label" for="ratti3">8-12 Ratti <span>(44)</span></label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="ratti4">
+                                        <label class="form-check-label" for="ratti4">12-18 Ratti <span>(45)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Certifications <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification1">
+                                        <label class="form-check-label" for="certification1">International Gemological Institute (IGI) Certified</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification2">
+                                        <label class="form-check-label" for="certification2">GEMRESEARCH SWISSLAB (GRS) Certified</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification3">
+                                        <label class="form-check-label" for="certification3">Lab Certificate - GUBLIN (Extra 60 Days)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification4">
+                                        <label class="form-check-label" for="certification4">Lab Certificate - GIA ( Extra 60 Days)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification5">
+                                        <label class="form-check-label" for="certification5">Govt Lab Certificate -IGI GTL ( Worth 1500/-)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="certification6">
+                                        <label class="form-check-label" for="certification6">Govt Lab Certificate -IIGJ (Formerly-IGI-GTL, Worth 1500/-)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                            <div class="sidebar-block">
+                                <div class="sidebar-block-header">Price Per Carat <i class="fa fa-angle-down"></i></div>
+                                <div class="sidebar-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="origin1">
+                                        <label class="form-check-label" for="origin1">Sri-Lanka(Ceylon)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="origin2">
+                                        <label class="form-check-label" for="origin2">Kashmir</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ################################ -->
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 position-relative">
+                        <div class="sort-by mb-3">
+                            <span class="fw600 text-dark pe-2">Sort by</span>
+                            <select class="form-select form-select-sm d-inline-block w-auto">
+                                <option value="" selected>Sort By</option>
+                                <option value="2">Price: High to Low</option>
+                                <option value="3">Price: Low to High</option>
+                                <option value="4">Cart Wt.: Low to High</option>
+                                <option value="5">Cart Wt.: High to Low</option>
+                            </select>
+                        </div>
+                        <div class="row justify-content-center gx-3">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/igi.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-1.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00056</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/grs.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-2.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Blue Sapphire Sterling Silver Pendant</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00057</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/iigj.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-3.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Burmese Ruby Sterling Silver Bracelet</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00058</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/igi.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-4.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00059</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/grs.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-1.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00060</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/iigj.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-2.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Burmese Ruby Sterling Silver Bracelet</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00061</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/igi.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-3.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00062</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/grs.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-1.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00056</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/iigj.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-2.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Blue Sapphire Sterling Silver Pendant</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00057</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/igi.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-3.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Burmese Ruby Sterling Silver Bracelet</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00058</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/grs.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-4.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00059</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/iigj.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-1.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00060</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/igi.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-2.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Burmese Ruby Sterling Silver Bracelet</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00061</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/grs.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-3.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00062</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+                                <a class="product-block position-relative bg-white shadow-sm rounded-1 h-100 card py-2 px-3 border-light-subtle d-block" href="details.html">
+                                    <span class="certifyby-logo d-inline-block position-absolute text-center"><img class="img-fluid mx-auto d-block" src="images/iigj.png" alt=""></span>
+                                    <figure><img class="img-fluid mx-auto d-block" src="images/product-4.jpg" alt=""></figure>
+                                    <div class="product-content text-center">
+                                        <h6 class="fw400 mb-3 fs16 px-md-4">Yellow Sapphire & Diamond Ring</h6>
+                                        <div class="row fs12 py-2 border-top border-bottom border-light-subtle align-items-center lh100">
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">SKU </strong>KS00062</div>
+                                            <div class="col-6 text-center text-muted fs12"><strong class="d-block fw500 text-uppercase text-dark mb-1">Origin </strong>Kashmir</div>
+                                        </div>
+                                        <div class="fs16 fw600 text-dark text-center px-3 pt-2">
+                                            ₹ 136000
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ############################################ -->
+                        <div class="pagination-block text-center pt-3">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left-long me-3"></i> Prev</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next <i class="fa-solid fa-arrow-right-long ms-3"></i></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- ############################################ -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.products-section -->
+    </main>
+    <!-- ############################################################## -->
+    <footer class="footer-main">
+        <div class="newsletter-section bg-dark">
+            <div class="container container-custom py-2 py-sm-3 py-md-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="row align-items-center">
+                            <div class="col-md-auto my-3">
+                                <h5 class="text-white mb-0">Newsletter<br>Subscription</h5>
+                            </div>
+                            <div class="col-md my-3">
+                                <div class="newsletter-block">
+                                    <form action="" class="d-block">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Your Email Address" aria-describedby="newsletter-btn">
+                                            <button class="btn btn-light px-4" type="button" id="newsletter-btn">SUBSCRIBE</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <div class="col-lg-5 text-lg-end">
+                        <div class="social-handles-footer d-flex flex-row justify-content-end align-items-center">
+                            <h6 class="footer-block-heading text-white me-4 mb-0">Follow us on</h6>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+        <!-- /.footer-newsletter -->
+        <div class="footer-info pt-5">
+            <div class="container container-custom pt-2 pt-sm-3 pt-md-4">
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-3 footer-links">
+                        <h6 class="mb-4 body-font">Info</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Gem Stones</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer-links">
+                        <h6 class="mb-4 body-font">Gem Stones</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Ruby</a></li>
+                            <li><a href="#">Blue Sapphire</a></li>
+                            <li><a href="#">Yellow Sapphire</a></li>
+                            <li><a href="#">Emerald</a></li>
+                            <li><a href="#">Opal</a></li>
+                            <li><a href="#">Pearl</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer-links">
+                        <h6 class="mb-4 body-font">Shop By</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Birthstone</a></li>
+                            <li><a href="#">Exclusive Collections</a></li>
+                            <li><a href="#">Natural Sapphires</a></li>
+                            <li><a href="#">Special Collections</a></li>
+                            <li><a href="#">Semi Precious Stones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer-links ftr-contact-info">
+                        <div class="info-block mb-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 me-4">
+                                    <img src="images/map.png" alt="">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6>Location</h6>
+                                    <address>Lorem ipsum dolor sit amet consectetur. Tortor vel fames nibh arcu enim sed. Sapien tincidunt</address>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-block mb-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 me-4">
+                                    <img src="images/phone.png" alt="">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6>Phone</h6>
+                                    <p class="mb-1">+91 - 987654321X</p>
+                                    <p class="mb-1">+91 - 987654321X</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-block mb-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 me-4">
+                                    <img src="images/mail.png" alt="">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6>Email</h6>
+                                    <p>contact@astrogemsandlab.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="additional-links row align-items-center justify-content-between">
+                    <div class="col-md-auto">
+                        <a href="#">Privacy Policy</a><span class="px-4 text-light small">|</span><a href="#">Shipping Policy</a><span class="px-4 text-light small">|</span><a href="#">Refund Policy</a><span class="px-4 text-light small">|</span><a href="#">Terms & Conditions</a>
+                    </div>
+                    <div class="col-md-auto">
+                        <img class="img-fluid" src="images/payment-methods.png" alt="">
+                    </div>
+                </div>
+                <hr class="mt-5">
+                <div class="footer-btm row justify-content-sm-between align-items-center pt-3 pb-4">
+                    <div class="col-sm-auto copyrights">
+                        <p class="mb-0">©2023, astrogemsandlab.com, All Rights Reserved</p>
+                    </div>
+                    <div class="col-sm-auto gototop">
+                        <a id="gotop" href="javascript:void(0);" class="d-flex flex-row align-items-center" onclick="window.scrollTo({top: 0, left: 0, behavior: 'smooth'});">Goto Top <i class="fa-solid fa-arrow-up ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.footer-info -->
+    </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- <script src="js/jquery.fancybox.min.js"></script> -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

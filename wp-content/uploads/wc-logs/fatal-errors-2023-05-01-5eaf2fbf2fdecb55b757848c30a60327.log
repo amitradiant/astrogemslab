@@ -1,0 +1,2 @@
+2023-05-01T08:14:52+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 65536 bytes) in C:\xampp\htdocs\astrogemslab\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypesController.php on line 168
+

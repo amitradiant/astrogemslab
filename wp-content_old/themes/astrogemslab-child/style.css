@@ -1,0 +1,149 @@
+/* 
+Theme Name:		 astrogemslab-child
+Theme URI:		 http://childtheme-generator.com/
+Description:	 astrogemslab-child is a child theme of astrogemslab, created by ChildTheme-Generator.com
+Author:			 Radiant Web Tech
+Author URI:		 http://childtheme-generator.com/
+Template:		 astrogemslab
+Version:		 1.0.0
+Text Domain:	 astrogemslab-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+p.mailpoet_validate_success {
+    color: #fff;
+}
+
+/*Woo-commerce My account design*/
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    padding: 10px 5px;
+    display: block;
+}
+
+.cart_item, .page-content ul li a, .page-content ul li strong {
+    font-weight: 500;
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a:before {
+    font-family: 'FontAwesome';
+    content: "\f0e4";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a:before {
+    opacity: 1;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:before {
+    margin-right: 20px;
+    opacity: .25;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a:before {
+    font-family: 'FontAwesome';
+    content: "\f291";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a:before {
+    font-family: 'FontAwesome';
+    content: "\f1c6";
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a:before {
+    font-family: 'FontAwesome';
+    content: "\f015";
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a:before {
+    font-family: 'FontAwesome';
+    content: "\f007";
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
+    font-family: 'FontAwesome';
+    content: "\f08b";
+}
+
+.page-content p a, .page-content p strong {
+    font-weight: 600!important;
+    font-weight: bold;
+}
+
+.woocommerce-MyAccount-content p a {
+    font-weight: bold;
+}
+
+.page-content p a, .page-content p strong {
+    font-weight: 600;
+}
+
+.woocommerce-MyAccount-content p a:hover {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link {
+    font-weight: bold;
+}
+/*Woo-commerce My account design*/
+
+/*Woocommerce pagination Start*/
+
+ul.page-numbers li, ul.page-numbers li a {
+    font-size: 16px;
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background: #ddd;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+ul.page-numbers li, ul.page-numbers li .current {
+    color: #fff;
+    background-color: #08713d;
+    border-color: #08713d;
+}
+
+/*Woocommerce pagination End*/
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #eeeeeed9;
+}
+ 
+
+ 
